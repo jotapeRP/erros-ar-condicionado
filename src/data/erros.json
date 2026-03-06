@@ -1,0 +1,507 @@
+[
+  {
+    "id": 1,
+    "marca": "Gree",
+    "codigo": "E0",
+    "descricao": "Erro EEPROM",
+    "causas": [
+      "Falha na memória da placa",
+      "Queda de energia",
+      "Defeito eletrônico"
+    ],
+    "solucao": ["Reiniciar equipamento", "Verificar placa", "Substituir placa"]
+  },
+  {
+    "id": 2,
+    "marca": "Gree",
+    "codigo": "E1",
+    "descricao": "Alta pressão do compressor",
+    "causas": ["Condensador sujo", "Ventilador parado", "Excesso de gás"],
+    "solucao": [
+      "Limpar condensador",
+      "Verificar ventilador",
+      "Ajustar carga de gás"
+    ]
+  },
+  {
+    "id": 3,
+    "marca": "Gree",
+    "codigo": "E2",
+    "descricao": "Proteção contra congelamento",
+    "causas": ["Filtro sujo", "Baixo fluxo de ar", "Baixo gás"],
+    "solucao": ["Limpar filtro", "Verificar ventilador", "Verificar gás"]
+  },
+  {
+    "id": 4,
+    "marca": "Gree",
+    "codigo": "E3",
+    "descricao": "Baixa pressão",
+    "causas": ["Vazamento de gás", "Filtro entupido", "Capilar obstruído"],
+    "solucao": ["Verificar vazamento", "Substituir filtro", "Limpar linha"]
+  },
+  {
+    "id": 5,
+    "marca": "Gree",
+    "codigo": "E4",
+    "descricao": "Alta temperatura compressor",
+    "causas": [
+      "Ventilação insuficiente",
+      "Condensador sujo",
+      "Problema compressor"
+    ],
+    "solucao": [
+      "Limpar condensador",
+      "Verificar ventilação",
+      "Testar compressor"
+    ]
+  },
+  {
+    "id": 6,
+    "marca": "Gree",
+    "codigo": "E5",
+    "descricao": "Proteção sobrecorrente",
+    "causas": ["Sobrecarga elétrica", "Compressor travado", "Tensão irregular"],
+    "solucao": [
+      "Verificar rede elétrica",
+      "Testar compressor",
+      "Verificar placa"
+    ]
+  },
+  {
+    "id": 7,
+    "marca": "Gree",
+    "codigo": "E6",
+    "descricao": "Falha comunicação",
+    "causas": ["Cabo rompido", "Conector solto", "Placa defeituosa"],
+    "solucao": ["Revisar cabeamento", "Reapertar conectores", "Testar placa"]
+  },
+  {
+    "id": 8,
+    "marca": "Gree",
+    "codigo": "E7",
+    "descricao": "Modo conflito",
+    "causas": ["Evaporadoras em modos diferentes"],
+    "solucao": ["Padronizar modo operação"]
+  },
+  {
+    "id": 9,
+    "marca": "Gree",
+    "codigo": "E8",
+    "descricao": "Ventilador interno defeito",
+    "causas": ["Motor queimado", "Capacitor defeito"],
+    "solucao": ["Substituir motor", "Trocar capacitor"]
+  },
+  {
+    "id": 10,
+    "marca": "Gree",
+    "codigo": "E9",
+    "descricao": "Proteção água cheia",
+    "causas": ["Dreno entupido", "Bomba defeito"],
+    "solucao": ["Desobstruir dreno", "Testar bomba"]
+  },
+
+  {
+    "id": 11,
+    "marca": "Gree",
+    "codigo": "F0",
+    "descricao": "Sensor ambiente defeito",
+    "causas": ["Sensor aberto", "Sensor curto"],
+    "solucao": ["Substituir sensor"]
+  },
+  {
+    "id": 12,
+    "marca": "Gree",
+    "codigo": "F1",
+    "descricao": "Sensor evaporadora defeito",
+    "causas": ["Sensor danificado"],
+    "solucao": ["Trocar sensor"]
+  },
+  {
+    "id": 13,
+    "marca": "Gree",
+    "codigo": "F2",
+    "descricao": "Sensor condensadora defeito",
+    "causas": ["Sensor defeituoso"],
+    "solucao": ["Substituir sensor"]
+  },
+  {
+    "id": 14,
+    "marca": "Gree",
+    "codigo": "F3",
+    "descricao": "Sensor descarga compressor",
+    "causas": ["Sensor queimado"],
+    "solucao": ["Trocar sensor"]
+  },
+  {
+    "id": 15,
+    "marca": "Gree",
+    "codigo": "F4",
+    "descricao": "Sensor externo defeito",
+    "causas": ["Sensor com curto"],
+    "solucao": ["Substituir sensor"]
+  },
+
+  {
+    "id": 16,
+    "marca": "LG",
+    "codigo": "CH01",
+    "descricao": "Sensor ambiente defeito",
+    "causas": ["Sensor desconectado", "Sensor danificado"],
+    "solucao": ["Reconectar sensor", "Trocar sensor"]
+  },
+  {
+    "id": 17,
+    "marca": "LG",
+    "codigo": "CH02",
+    "descricao": "Sensor evaporadora defeito",
+    "causas": ["Sensor defeito"],
+    "solucao": ["Substituir sensor"]
+  },
+  {
+    "id": 18,
+    "marca": "LG",
+    "codigo": "CH03",
+    "descricao": "Erro ventilador interno",
+    "causas": ["Motor travado", "Placa defeito"],
+    "solucao": ["Testar motor", "Verificar placa"]
+  },
+  {
+    "id": 19,
+    "marca": "LG",
+    "codigo": "CH04",
+    "descricao": "Erro bomba dreno",
+    "causas": ["Bomba travada", "Dreno entupido"],
+    "solucao": ["Limpar dreno", "Trocar bomba"]
+  },
+  {
+    "id": 20,
+    "marca": "LG",
+    "codigo": "CH05",
+    "descricao": "Erro comunicação",
+    "causas": ["Cabo rompido", "Placa defeito"],
+    "solucao": ["Verificar cabeamento", "Testar placas"]
+  },
+  {
+    "id": 21,
+    "marca": "LG",
+    "codigo": "CH06",
+    "descricao": "Sensor descarga defeito",
+    "causas": ["Sensor danificado"],
+    "solucao": ["Trocar sensor"]
+  },
+  {
+    "id": 22,
+    "marca": "LG",
+    "codigo": "CH07",
+    "descricao": "Erro ventilador externo",
+    "causas": ["Motor queimado"],
+    "solucao": ["Substituir motor"]
+  },
+  {
+    "id": 23,
+    "marca": "LG",
+    "codigo": "CH09",
+    "descricao": "Erro EEPROM",
+    "causas": ["Memória corrompida"],
+    "solucao": ["Trocar placa"]
+  },
+  {
+    "id": 24,
+    "marca": "LG",
+    "codigo": "CH10",
+    "descricao": "Ventilador interno travado",
+    "causas": ["Obstrução", "Motor defeito"],
+    "solucao": ["Remover obstrução", "Trocar motor"]
+  },
+  {
+    "id": 25,
+    "marca": "LG",
+    "codigo": "CH21",
+    "descricao": "Proteção IPM",
+    "causas": ["Sobrecarga inverter"],
+    "solucao": ["Verificar compressor", "Testar placa"]
+  },
+  {
+    "id": 26,
+    "marca": "LG",
+    "codigo": "CH22",
+    "descricao": "Sobrecorrente compressor",
+    "causas": ["Compressor travado"],
+    "solucao": ["Testar compressor"]
+  },
+  {
+    "id": 27,
+    "marca": "LG",
+    "codigo": "CH23",
+    "descricao": "Baixa tensão",
+    "causas": ["Rede instável"],
+    "solucao": ["Verificar alimentação"]
+  },
+  {
+    "id": 28,
+    "marca": "LG",
+    "codigo": "CH24",
+    "descricao": "Alta pressão",
+    "causas": ["Condensador sujo"],
+    "solucao": ["Limpar condensador"]
+  },
+  {
+    "id": 29,
+    "marca": "LG",
+    "codigo": "CH26",
+    "descricao": "Falha compressor",
+    "causas": ["Compressor danificado"],
+    "solucao": ["Substituir compressor"]
+  },
+  {
+    "id": 30,
+    "marca": "LG",
+    "codigo": "CH29",
+    "descricao": "Alta corrente",
+    "causas": ["Sobrecarga"],
+    "solucao": ["Verificar compressor"]
+  },
+
+  {
+    "id": 31,
+    "marca": "Midea",
+    "codigo": "E0",
+    "descricao": "Erro EEPROM",
+    "causas": ["Memória defeito"],
+    "solucao": ["Trocar placa"]
+  },
+  {
+    "id": 32,
+    "marca": "Midea",
+    "codigo": "E1",
+    "descricao": "Alta pressão",
+    "causas": ["Condensador sujo", "Ventilador defeito"],
+    "solucao": ["Limpar condensador", "Testar ventilador"]
+  },
+  {
+    "id": 33,
+    "marca": "Midea",
+    "codigo": "E2",
+    "descricao": "Congelamento evaporadora",
+    "causas": ["Filtro sujo", "Baixo gás"],
+    "solucao": ["Limpar filtro", "Verificar gás"]
+  },
+  {
+    "id": 34,
+    "marca": "Midea",
+    "codigo": "E3",
+    "descricao": "Baixa pressão",
+    "causas": ["Vazamento gás"],
+    "solucao": ["Reparar vazamento"]
+  },
+  {
+    "id": 35,
+    "marca": "Midea",
+    "codigo": "E4",
+    "descricao": "Alta temperatura compressor",
+    "causas": ["Condensador sujo"],
+    "solucao": ["Limpeza"]
+  },
+  {
+    "id": 36,
+    "marca": "Midea",
+    "codigo": "E5",
+    "descricao": "Sobrecorrente",
+    "causas": ["Compressor travado"],
+    "solucao": ["Testar compressor"]
+  },
+  {
+    "id": 37,
+    "marca": "Midea",
+    "codigo": "E6",
+    "descricao": "Erro comunicação",
+    "causas": ["Cabo rompido"],
+    "solucao": ["Verificar cabeamento"]
+  },
+  {
+    "id": 38,
+    "marca": "Midea",
+    "codigo": "E7",
+    "descricao": "Erro ventilador",
+    "causas": ["Motor defeito"],
+    "solucao": ["Trocar motor"]
+  },
+  {
+    "id": 39,
+    "marca": "Midea",
+    "codigo": "E8",
+    "descricao": "Proteção temperatura",
+    "causas": ["Sensor defeito"],
+    "solucao": ["Trocar sensor"]
+  },
+  {
+    "id": 40,
+    "marca": "Midea",
+    "codigo": "E9",
+    "descricao": "Erro dreno",
+    "causas": ["Dreno entupido"],
+    "solucao": ["Limpar dreno"]
+  },
+
+  {
+    "id": 41,
+    "marca": "Daikin",
+    "codigo": "A1",
+    "descricao": "Erro placa interna",
+    "causas": ["PCB defeituosa"],
+    "solucao": ["Substituir placa"]
+  },
+  {
+    "id": 42,
+    "marca": "Daikin",
+    "codigo": "A3",
+    "descricao": "Erro dreno",
+    "causas": ["Dreno entupido"],
+    "solucao": ["Limpar dreno"]
+  },
+  {
+    "id": 43,
+    "marca": "Daikin",
+    "codigo": "A5",
+    "descricao": "Proteção congelamento",
+    "causas": ["Baixo fluxo ar"],
+    "solucao": ["Limpar filtro"]
+  },
+  {
+    "id": 44,
+    "marca": "Daikin",
+    "codigo": "A6",
+    "descricao": "Motor ventilador defeito",
+    "causas": ["Motor travado"],
+    "solucao": ["Substituir motor"]
+  },
+  {
+    "id": 45,
+    "marca": "Daikin",
+    "codigo": "C4",
+    "descricao": "Sensor trocador defeito",
+    "causas": ["Sensor queimado"],
+    "solucao": ["Trocar sensor"]
+  },
+  {
+    "id": 46,
+    "marca": "Daikin",
+    "codigo": "C9",
+    "descricao": "Sensor ar defeito",
+    "causas": ["Sensor defeito"],
+    "solucao": ["Substituir sensor"]
+  },
+  {
+    "id": 47,
+    "marca": "Daikin",
+    "codigo": "E1",
+    "descricao": "Erro placa externa",
+    "causas": ["PCB defeito"],
+    "solucao": ["Trocar placa"]
+  },
+  {
+    "id": 48,
+    "marca": "Daikin",
+    "codigo": "E5",
+    "descricao": "Sobrecarga compressor",
+    "causas": ["Compressor travado"],
+    "solucao": ["Testar compressor"]
+  },
+  {
+    "id": 49,
+    "marca": "Daikin",
+    "codigo": "F3",
+    "descricao": "Alta temperatura descarga",
+    "causas": ["Baixo gás"],
+    "solucao": ["Verificar carga gás"]
+  },
+  {
+    "id": 50,
+    "marca": "Daikin",
+    "codigo": "U0",
+    "descricao": "Baixo refrigerante",
+    "causas": ["Vazamento"],
+    "solucao": ["Reparar vazamento", "Recarregar gás"]
+  },
+  {
+    "id": 51,
+    "marca": "Daikin",
+    "codigo": "U2",
+    "descricao": "Baixa tensão",
+    "causas": ["Rede elétrica instável"],
+    "solucao": ["Verificar alimentação"]
+  },
+  {
+    "id": 52,
+    "marca": "Daikin",
+    "codigo": "U4",
+    "descricao": "Erro comunicação",
+    "causas": ["Cabo comunicação"],
+    "solucao": ["Revisar cabeamento"]
+  },
+  {
+    "id": 53,
+    "marca": "Daikin",
+    "codigo": "U5",
+    "descricao": "Erro controle remoto",
+    "causas": ["Controle defeito"],
+    "solucao": ["Trocar controle"]
+  },
+  {
+    "id": 54,
+    "marca": "Daikin",
+    "codigo": "U7",
+    "descricao": "Erro transmissão",
+    "causas": ["Falha comunicação"],
+    "solucao": ["Verificar cabos"]
+  },
+  {
+    "id": 55,
+    "marca": "Daikin",
+    "codigo": "UA",
+    "descricao": "Erro configuração",
+    "causas": ["Endereçamento incorreto"],
+    "solucao": ["Reconfigurar sistema"]
+  },
+
+  {
+    "id": 56,
+    "marca": "Gree",
+    "codigo": "H1",
+    "descricao": "Degelo ativo",
+    "causas": ["Operação normal"],
+    "solucao": ["Aguardar término"]
+  },
+  {
+    "id": 57,
+    "marca": "LG",
+    "codigo": "CH34",
+    "descricao": "Alta pressão",
+    "causas": ["Condensador sujo"],
+    "solucao": ["Limpeza"]
+  },
+  {
+    "id": 58,
+    "marca": "Midea",
+    "codigo": "P0",
+    "descricao": "Proteção inverter",
+    "causas": ["Sobrecarga"],
+    "solucao": ["Testar compressor"]
+  },
+  {
+    "id": 59,
+    "marca": "Daikin",
+    "codigo": "L5",
+    "descricao": "Erro inverter",
+    "causas": ["Falha módulo"],
+    "solucao": ["Substituir placa"]
+  },
+  {
+    "id": 60,
+    "marca": "Gree",
+    "codigo": "H3",
+    "descricao": "Proteção sobrecarga compressor",
+    "causas": ["Compressor travado"],
+    "solucao": ["Testar compressor"]
+  }
+]
