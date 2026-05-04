@@ -1,16 +1,37 @@
-# React + Vite
+# ❄️ Air Conditioning Error Diagnosis System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 About the Project
+This project is a web application designed to help identify and understand common air conditioning error codes.
 
-Currently, two official plugins are available:
+It is especially useful for technicians and users who need quick access to error meanings and possible solutions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Problem Solved
+Air conditioning systems often display error codes that are difficult to interpret without technical knowledge.
 
-## React Compiler
+This project aims to simplify that process by providing:
+- Clear explanations of error codes
+- Possible causes
+- Suggested solutions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies
+- React.js
+- JavaScript
+- HTML & CSS
 
-## Expanding the ESLint configuration
+## ⚙️ Features
+- Error code lookup
+- Description of issues
+- Suggested fixes
+- Simple and user-friendly interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📷 Screenshots
+<img width="290" height="569" alt="image" src="https://github.com/user-attachments/assets/a58a2654-d320-47dd-8f37-ac0ab9434dce" />
+
+## 🔗 Live Demo
+https://erros-ar-condicionado.vercel.app/
+
+## 💻 How to Run
+```bash
+git clone https://github.com/jotapeRP/erros-ar-condicionado
+npm install
+npm run dev
